@@ -1,6 +1,7 @@
 //Programmer: Madelyn Hershberger
 //Date: 1.10.2024
 //Program: Sphero Bolt Testing
+//Bolt ID: 52F9
 
 async function startProgram() {
 	await speak("Hello World", true);
@@ -10,4 +11,3 @@ async function startProgram() {
 	setSpeed(0);
 
 }
-
