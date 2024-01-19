@@ -12,28 +12,28 @@ startProgram() {
 	setSpeed(0);
 }
 */
- 
+
 //Square w/ different colors for each line & commit
 async function startProgram() {
-	await roll (0, 50, 2)
-	await roll (90, 50, 2)
+	await roll(0, 50, 2)
+	await roll(90, 50, 2)
 	setHeading(90)
-	setMainLed ({ r:0, g: 0, b: 255});
+	setMainLed({ r: 0, g: 0, b: 255 });
 	stopRoll
-	await roll (180, 50, 2)
+	await roll(180, 50, 2)
 	setHeading(90)
-	setMainLed ({ r:0, g: 255, b: 0});
+	setMainLed({ r: 0, g: 255, b: 0 });
 	stopRoll
-	await roll (270, 50, 2)
+	await roll(270, 50, 2)
 	setHeading(90)
-	setMainLed ({ r:255, g: 0, b: 0});
+	setMainLed({ r: 255, g: 0, b: 0 });
 	stopRoll
-	await roll (360, 100, 2)
+	await roll(360, 100, 2)
 	setHeading(90)
-	setMainLed ({ r:0, g: 0, b: 255});
+	setMainLed({ r: 0, g: 0, b: 255 });
 	stopRoll
 }
 //Square w/ different colors & sounds for each line & commit
- 
- 
+
+
 //Figure 8 & commit
